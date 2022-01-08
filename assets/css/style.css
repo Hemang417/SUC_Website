@@ -258,31 +258,22 @@ body::-webkit-scrollbar-button {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+.horizon-link a{
+  background: linear-gradient(-45deg, #833ab4, #fcb045, #fd1d1d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: horizon-button 1s forwards infinite;
+  -webkit-animation: horizon-button 1s forwards infinite;
 }
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #7cc576;
-}
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
+.navbar-mobile .horizon-link a:hover, .navbar-mobile .horizon-link a.active, .navbar-mobile .horizon-link a.active:focus{
+  background: linear-gradient(-45deg, #833ab4, #fcb045, #fd1d1d);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* animation: horizon-button 1s forwards infinite;
+  -webkit-animation: horizon-button 1s forwards infinite; */
 }
 
 /*--------------------------------------------------------------
