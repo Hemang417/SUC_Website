@@ -380,7 +380,7 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about .image {
-    padding: 20px;
+    padding: 5px;
 }
 .about .content h3 {
   font-weight: 600;
@@ -429,7 +429,7 @@ section {
     line-height: 2;
   }
   .services .image {
-    padding: 20px;
+    padding: 5px;
   }
 
 /*--------------------------------------------------------------
