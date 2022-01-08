@@ -24,4 +24,6 @@ body {
     text-decoration: none;
     color: #555;
   }
-  
+  .row>*{
+    padding-right: 0;
+  }
