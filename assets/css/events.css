@@ -429,10 +429,7 @@ section {
     line-height: 2;
   }
   .services .image {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
+    padding: 20px;
   }
 
 /*--------------------------------------------------------------
