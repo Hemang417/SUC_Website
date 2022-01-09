@@ -61,6 +61,10 @@ body::-webkit-scrollbar-button {
   height: 40px;
   border-radius: 50%;
   transition: all 0.4s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .back-to-top i {
   font-size: 28px;
