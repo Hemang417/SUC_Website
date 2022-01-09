@@ -325,7 +325,7 @@ body::-webkit-scrollbar-button {
 #hero h2 {
   color: #aeaeae;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -340,11 +340,11 @@ body::-webkit-scrollbar-button {
   border-radius: 3px;
   margin: 10px;
   color: #fff;
-  border: 1px solid #c9a877;
+  border: 1px solid #fff;
 }
 #hero .btn-get-started:hover {
   transition: 0.5s;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.2);
   /* color: #7cc576; */
   color: #fff;
 }
