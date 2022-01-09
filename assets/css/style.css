@@ -484,7 +484,7 @@ section {
   box-shadow: 3px 3px 3px 3px lightgrey;
 }
 /*--------------------------------------------------------------
-# Teams
+# Teams MainPage
 --------------------------------------------------------------*/
 .team-main .image {
   width: 100%;
@@ -552,7 +552,7 @@ section {
 /* 
 
 /*--------------------------------------------------------------
-# Team Page
+# Teams Page
 --------------------------------------------------------------*/
 .team {
   background: #fff;
@@ -738,7 +738,6 @@ section {
 #footer .footer-bottom {
   z-index: 2;
   position: relative;
-  /* padding-top: 40px; */
   padding-bottom: 40px;
 }
 #footer .copyright {
@@ -750,7 +749,7 @@ section {
   padding-top: 5px;
 }
 
-/* iframe */
+/*  IFRAME  */
 
 @media (max-width: 1023px){
   iframe{
