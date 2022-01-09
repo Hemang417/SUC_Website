@@ -713,29 +713,28 @@ section {
   margin-top: 0;
 }
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 24px;
   display: inline-block;
-  background: #7cc576;
+  background: rgba(0, 0, 0, 0.3);
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 11px 0;
+  margin-right: 8px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.25);
+  color: #5ab652;
   text-decoration: none;
 }
 #footer .footer-bottom {
-  border-top: 1px solid #222222;
   z-index: 2;
   position: relative;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   padding-bottom: 40px;
 }
 #footer .copyright {
